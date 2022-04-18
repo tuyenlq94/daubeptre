@@ -1,0 +1,16 @@
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.pu-baodanh-btn form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.pu-baodanh-btn form .f-control::placeholder{
+    color: rgba(0,0,0,.6)
+}
+.pu-baodanh-btn form div:nth-child(n + 3){
+    grid-column:span 2;
+}
